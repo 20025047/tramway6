@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+/*****************************************************************
+
+	下階層ページ用CSS
+
+*****************************************************************/
+
+/*============================================================
+	privacy Page
+============================================================*/
+#main .list_num li{
+	margin-bottom: 0.5em;
+	padding-left: 0.5em;
+	margin-left: 1.5em;
+	position: relative;
+	line-height: 1.75;
+}
+
+/*============================================================
+	link_study Page
+============================================================*/
+#main .link_study{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#main .link_study li,
+#main .link_study::after{
+	width: 30%;
+}
+/*============================================================
+	history_sec Page
+============================================================*/
+#main .history_sec{
+	margin-bottom: 1em;
+	padding: 15px;
+	border-radius: 20px;
+	background: #fafafa;
+}
+#main .history_sec p,
+#main .history_sec h3,
+#main .history_sec h2{
+	overflow: hidden;
+}
+#main .history_sec .img_l{
+	width: 160px;
+}
+#main .history_sec .more{
+	clear: both;
+	text-align: right;
+}
+#main .history_sec h2{
+	border-bottom: 1px dotted #999;
+	padding-bottom: 5px;
+	font-size: 112.50%;
+}
+#main .history_sec h3{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+.more a{
+	display: inline-block;
+	line-height: 1;
+	padding: 12px 2em;
+	border: 1px solid #666;
+	color: #666;
+	background: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+/*============================================================
+	dec_index Page
+============================================================*/
+#main .dec_index{
+	display: flex;
+	justify-content: space-between;
+}
+#main .dec_index::after{content: normal}
+#main .dec_index li{
+	width: 9.5%;
+}
+#main .dec_index a{
+	display: block;
+	text-decoration: none;
+	padding:  10px 0;
+	text-align: center;
+	background: #fafafa;
+	border-bottom: 2px solid #e60012;
+}
+#main .dec_item{
+border: 1px solid #eee;
+	padding: 15px;
+	margin-bottom: 1em;
+box-shadow: 0 0 5px 1px #eee;
+}
+#main .dec_item h3{
+margin-bottom: 0.5em;
+padding: 10px;
+background: #fafafa;
+	font-size: 112.5%;
+	line-height: 1;
+}
+#main .dec_item h3 span{
+	font-size: 78%;
+	font-weight: normal;
+	color: #666;
+}
+#main .dec_item .cate{
+	font-size: 78%;
+	margin-bottom: 1.5em;
+	color: #666;
+}
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+@media screen and (max-width: 768px) {
+/*============================================================
+	link_study Page
+============================================================*/
+#main .link_study li,
+#main .link_study::after{
+	width:49%;
+}
+
+/*============================================================
+	dec_index Page
+============================================================*/
+#main .dec_index{
+	flex-wrap: wrap
+}
+#main .dec_index::after{content: normal}
+#main .dec_index li{
+	width: 19.5%;
+	margin-bottom: 1%;
+}
+#main .dec_index a{
+	padding:  10px 0;
+}
+#main .dec_item{
+	padding: 10px;
+}
+#main .dec_item h3{
+	font-size: 100%;
+}
+#main .dec_item h3 span{
+	font-size: 88%;
+}
+#main .dec_item .cate{
+	font-size: 88%;
+}
+
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+/*============================================================
+	XXX Page
+============================================================*/
+
+
+
+
+}
