@@ -45,7 +45,8 @@ footer, header, hgroup, menu, nav, section, summary {
 
 
 body{
-	background: #FFF;
+	background: #000;
+	color: #fff;
 	font-family: "Roboto","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","meiryo","MS P Gothic","ＭＳ Ｐゴシック","Osaka", sans-serif;
 	text-align: center;
 	-webkit-text-size-adjust: 100%;
@@ -229,7 +230,7 @@ em{
 }
 
 a{
-	color: #000;
+	color: #fff;
 	background: transparent;
 
 	-moz-transition: 0.25s;
@@ -839,7 +840,7 @@ dd,dt,dl,p{
 	display: none;
 }
 .top_menu{
-	background: #e7e7e7;
+	background: #000;
 	position: relative;
 	z-index: 10;
 }
@@ -865,7 +866,7 @@ dd,dt,dl,p{
 	padding:  15px;
 	text-align: center;
 	text-decoration: none;
-	color: #333;
+	color: #fff;
 	position: relative;
 	height: 100%;
 }
@@ -882,7 +883,7 @@ dd,dt,dl,p{
 	position: absolute;
 	transform: rotate(135deg);
 }
-.top_menu a:hover{ background: #eee;}
+.top_menu a:hover{ background: #262626;}
 .top_menu img{
 	width: 60px;
 	margin-bottom: 10px;
@@ -980,8 +981,8 @@ dd,dt,dl,p{
 	line-height: 1;
 	width: 100%;
 	max-width: 250px;
-	border: 1px solid #333;
-	color: #333;
+	border: 1px solid #fff;
+	color: #fff;
 }
 .btn_more:hover{
 	background: #999;
@@ -1186,7 +1187,7 @@ dd,dt,dl,p{
 	font-weight: normal;
 	line-height: 1;
 		font-family: "Lato","Roboto","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","meiryo","MS P Gothic","ＭＳ Ｐゴシック","Osaka", sans-serif;
-	color: #666;
+	color: #fff;
 }
 #main .main_head{
 	text-align: center;
@@ -1194,7 +1195,7 @@ dd,dt,dl,p{
 	letter-spacing: 0.25em;
 	line-height: 1;
 	font-weight: bold;
-	color: #000;
+	color: #fff;
 }
 #main .main_head small{
 	display: block;
@@ -1533,7 +1534,7 @@ dd,dt,dl,p{
 /* ===== sec_top_access ===== */
 #main .sec_top_photo,
 #main .sec_top_access{
-	background: #fafafa;
+	background: #000;
 }
 #main .sec_top_photo .main_head_2{
 	margin-top: 2em;
@@ -1547,6 +1548,7 @@ dd,dt,dl,p{
 	display: inline-block;
 	margin:  0 5px;
 	width: 50px;
+	background: #fff;
 }
 #main .map_area{
 	width: 100%;
